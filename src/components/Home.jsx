@@ -11,6 +11,7 @@ const Home = () => {
 			className='home container'
 		>
 			<h2>Welcome to Pizza Joint</h2>
+
 			<Link to='/base'>
 				<motion.button
 					whileHover={{ scale: 1.1, textShadow: "0 0 8px white", boxShadow: "0 0 8px white" }}
